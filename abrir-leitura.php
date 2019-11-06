@@ -10,10 +10,8 @@
 
     <?php 
         $arquivo = fopen("emails.txt", "r") or die("Arquivo não encontrado");
-        while(!feof($arquivo)){
-            echo fgets($arquivo)."<br><br>";
-        }
-        echo fgets($arquivo);
+        echo fgets($arquivo, filesize("email.txt"));
+        fclose($arquivo);
     ?>
     
 </body>
