@@ -7,19 +7,22 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action="escrita.php" method="POST">
+
+    <form action="leitura.php" method="post">
+
     <div>
-        <label for="">Nome: </label>
-        <input type="text" name="nome" id="form-nome">
-    </div>
-    <div>
-        <label for="">Email: </label>
+        <label for="form-email">Email: </label>
         <input type="email" name="email" id="form-email">
     </div>
     <div>
         <input type="submit" value="Enviar">
     </div>
     </form>
+
+    <br>
+    <hr>
+
+    <a href="escrita.php">Ver usuários</a>
     
 </body>
 </html>
