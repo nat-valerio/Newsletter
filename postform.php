@@ -8,11 +8,11 @@
 </head>
 <body>
 
-    <form action="leitura.php" method="post">
+    <form action="insert.php" method="post">
 
     <div>
         <label for="form-email">Email: </label>
-        <input type="email" name="email" id="form-email">
+        <input type="email" name="email" id="email">
     </div>
     <div>
         <input type="submit" value="Enviar">
@@ -22,7 +22,9 @@
     <br>
     <hr>
 
-    <a href="escrita.php">Ver usuários</a>
+    <a href="select.php">Ver usuários</a>
+    <br>
+    <a href="enviar-emails.php">Mandar emails</a>
     
 </body>
 </html>
